@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>装修案例 第1页 - 文章管理系统 Demo演示</title>
+<meta name="keywords" content="" />
+<meta name="description" content="这是一个演示用的管理系统" />
+<link rel="stylesheet" href="http://local.cms.com/resources/css/layout.css" />
+<link rel="shortcut icon" href="http://local.cms.com/favicon.ico" />
+</head>
+
+<body>
+<!-- header start -->
+<body>
+<div class="top">
+    <div class="w1000">
+        <div class="logo">
+        	<img src="http://local.cms.com/resources/images/global/logo.jpg" />
+        </div>
+        <div id="main-nav" class="nav fr">
+            <a href="http://local.cms.com">公司首页</a>
+            <a href="http://local.cms.com/page/intro.html">公司简介</a>
+            <a href="http://local.cms.com/html/case/">装修案例</a>
+            <a href="http://local.cms.com/html/material/">装修材料</a>
+            <a href="http://local.cms.com/page/contact.html">联系我们</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	var cURL = window.location.pathname;
+	var nav  = document.getElementById('main-nav').getElementsByTagName('a');
+	if(cURL.indexOf("/intro.html") != -1)
+		nav[1].className = 'active';
+	else if(cURL.indexOf("/case/") != -1)
+		nav[2].className = 'active';
+	else if(cURL.indexOf("/material/") != -1)
+		nav[3].className = 'active';
+	else if(cURL.indexOf("/contact.html/") != -1 )
+		nav[4].className = 'active';
+	else
+		nav[0].className = 'active';
+</script>
+
+<!-- header end -->
+<div class="container">
+    <div class="w1000 white">
+        <img src="http://local.cms.com/resources/images/global/case_banner.gif">
+        
+                <div class="case_list">
+            <a href="/html/case/129.html"><img src="http://local.cms.com/upload/image/201207/20120731151012_61657.jpg" />
+            <span>红海园</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/128.html"><img src="http://local.cms.com/upload/image/201207/20120731150916_62632.jpg" />
+            <span>津泰路服装店</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/126.html"><img src="http://local.cms.com/upload/image/201207/20120731150722_12694.jpg" />
+            <span>金辉伯爵山</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/125.html"><img src="http://local.cms.com/upload/image/201207/20120731150557_13109.jpg" />
+            <span>五凤山名居9#101</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/124.html"><img src="http://local.cms.com/upload/image/201207/20120731150251_16413.jpg" />
+            <span>书香大第9#902</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/123.html"><img src="http://local.cms.com/upload/image/201207/20120731150146_47084.jpg" />
+            <span>北尚新宿16#1405</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/122.html"><img src="http://local.cms.com/upload/image/201207/20120731150048_77129.jpg" />
+            <span>东方名城13#1303</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/120.html"><img src="http://local.cms.com/upload/image/201207/20120731103512_59724.gif" />
+            <span>卧榻和书物搁置架的优雅组合</span></a>
+        </div>
+                <div class="case_list">
+            <a href="/html/case/121.html"><img src="http://local.cms.com/upload/image/201207/20120731145759_80488.jpg" />
+            <span>123</span></a>
+        </div>
+                
+        <div class="clear"></div>
+        <div class="pagination"><a href="list-1.html">首页</a><a href="list-1.html">上一页</a><span class="current">1</span><a href="list-2.html">2</a><a href="list-2.html">下一页</a><a href="list-2.html">末页</a><span class="all">页次：1 / 2</span></div>        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+	<p>Copyright © 2010-2012 版权所有 闽ICP备 123516665</p>
+</div>
+</body>
+</html>

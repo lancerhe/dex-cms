@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>书香大第9#902 - 文章管理系统 Demo演示</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="http://local.cms.com/resources/css/layout.css" />
+<link rel="shortcut icon" href="http://local.cms.com/favicon.ico" />
+</head>
+
+<body>
+<!-- header start -->
+<body>
+<div class="top">
+    <div class="w1000">
+        <div class="logo">
+        	<img src="http://local.cms.com/resources/images/global/logo.jpg" />
+        </div>
+        <div id="main-nav" class="nav fr">
+            <a href="http://local.cms.com">公司首页</a>
+            <a href="http://local.cms.com/page/intro.html">公司简介</a>
+            <a href="http://local.cms.com/html/case/">装修案例</a>
+            <a href="http://local.cms.com/html/material/">装修材料</a>
+            <a href="http://local.cms.com/page/contact.html">联系我们</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	var cURL = window.location.pathname;
+	var nav  = document.getElementById('main-nav').getElementsByTagName('a');
+	if(cURL.indexOf("/intro.html") != -1)
+		nav[1].className = 'active';
+	else if(cURL.indexOf("/case/") != -1)
+		nav[2].className = 'active';
+	else if(cURL.indexOf("/material/") != -1)
+		nav[3].className = 'active';
+	else if(cURL.indexOf("/contact.html/") != -1 )
+		nav[4].className = 'active';
+	else
+		nav[0].className = 'active';
+</script>
+
+<!-- header end -->
+<div class="container">
+    <div class="w1000 white">
+                    <img src="http://local.cms.com/resources/images/global/case_banner.gif" />
+                
+        <a href="/html/case/123.html" class="detail_page fl">上一篇</a>
+        <a href="/html/case/125.html" class="detail_page fr">下一篇</a>
+        <div class="clear"></div>
+        <div class="detail_content">
+            <h1>书香大第9#902</h1>
+            
+            <div class="d_text">
+<p>
+	项目名称：书香大第9#902 面积：100㎡ 主要用材:仿古砖 红檀面板 设计理念：简单的中式风格，柔和的灯光透着 一股古色古香的味道。
+</p>
+<div style="text-align:center;">
+	<img src="/upload/image/201207/20120731150251_16413.jpg" alt="" />
+</div></div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+	<p>Copyright © 2010-2012 版权所有 闽ICP备 123516665</p>
+</div>
+</body>
+</html>

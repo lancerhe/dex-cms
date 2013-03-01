@@ -1,0 +1,42 @@
+@import url("import/reset.css");
+@import url("import/text.css");
+.fl {float:left;}
+.fr {float:right;}
+.h50 {height:50px;}
+.h80 {height:80px;}
+.w320 {width:320px;}
+.w280 {width:280px;}
+.w240 {width:240px;}
+.w200 {width:200px;}
+.w160 {width:160px;}
+.w120 {width:120px;}
+body {background:url(../images/login/bg_login.jpg) #000 center center no-repeat;}
+#login-form {position:absolute; left:50%; top:50%; height:324px; width:520px; margin-top:-162px; margin-left:-260px; z-index:2;}
+	#login-form h1 {height:100px; padding:0; margin:0; text-indent:-999em;}
+	#login-form label{text-align:left; display:block; height:50px; width:120px; text-indent:-999em; }
+	#login-form .login-input-text,
+	#login-form .login-input-captcha{margin-left:28px; margin-top:14px; padding:2px 0;height:18px;border:0; font-size:14px; font-family:Verdana;}
+	#login-form .login-input-text{ width:200px; }
+	#login-form .login-input-captcha{width:75px;}
+	#login-form .login-img-captcha { cursor:pointer;margin-top:12px; margin-left:28px; padding:0; height:24px; width:80px; border:1px solid #666;}
+	#login-form .login-input-btn {background-color:transparent; padding:0; border:0;width:75px; height:27px; margin:14px 5px 0; overflow:hidden; line-height:150px; cursor:pointer; font-size:0;}
+	#login-form .login-bg-username-label,
+	#login-form .login-bg-username,
+	#login-form .login-bg-password-label,
+	#login-form .login-bg-password,
+	#login-form .login-bg-captcha-label,
+	#login-form .login-bg-captcha,
+	#login-form .login-bg-button {
+		background-image:url(../images/login/bg_login_2.jpg); background-repeat:no-repeat;
+	}
+	
+	#login-form .login-bg-username-label {background-position:0 0;}
+	#login-form .login-bg-password-label {background-position:0 -50px;}
+	#login-form .login-bg-captcha-label {background-position:0 -100px;}
+	#login-form .login-bg-username {background-position:-120px 0;}
+	#login-form .login-bg-password {background-position:-120px -50px;}
+	#login-form .login-bg-captcha {background-position:-120px -100px;}
+	#login-form .login-bg-button   {background-position:-120px -150px;}
+		
+#login-bottom {position:fixed; bottom:0; height:30px; width:800px; left:50%; margin-left:-400px; background-color:#e7e7e7; -webkit-border-radius: 6px 6px 0 0;-moz-border-radius: 6px 6px 0 0; border:#999 1px solid; border-bottom:0;}	
+	

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>装修案例 第2页 - 文章管理系统 Demo演示</title>
+<meta name="keywords" content="" />
+<meta name="description" content="这是一个演示用的管理系统" />
+<link rel="stylesheet" href="http://local.cms.com/resources/css/layout.css" />
+<link rel="shortcut icon" href="http://local.cms.com/favicon.ico" />
+</head>
+
+<body>
+<!-- header start -->
+<body>
+<div class="top">
+    <div class="w1000">
+        <div class="logo">
+        	<img src="http://local.cms.com/resources/images/global/logo.jpg" />
+        </div>
+        <div id="main-nav" class="nav fr">
+            <a href="http://local.cms.com">公司首页</a>
+            <a href="http://local.cms.com/page/intro.html">公司简介</a>
+            <a href="http://local.cms.com/html/case/">装修案例</a>
+            <a href="http://local.cms.com/html/material/">装修材料</a>
+            <a href="http://local.cms.com/page/contact.html">联系我们</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	var cURL = window.location.pathname;
+	var nav  = document.getElementById('main-nav').getElementsByTagName('a');
+	if(cURL.indexOf("/intro.html") != -1)
+		nav[1].className = 'active';
+	else if(cURL.indexOf("/case/") != -1)
+		nav[2].className = 'active';
+	else if(cURL.indexOf("/material/") != -1)
+		nav[3].className = 'active';
+	else if(cURL.indexOf("/contact.html/") != -1 )
+		nav[4].className = 'active';
+	else
+		nav[0].className = 'active';
+</script>
+
+<!-- header end -->
+<div class="container">
+    <div class="w1000 white">
+        <img src="http://local.cms.com/resources/images/global/case_banner.gif">
+        
+                <div class="case_list">
+            <a href="/html/case/127.html"><img src="http://local.cms.com/upload/image/201207/20120731150825_49314.jpg" />
+            <span>海润尊品17#602</span></a>
+        </div>
+                
+        <div class="clear"></div>
+        <div class="pagination"><a href="list-1.html">首页</a><a href="list-1.html">上一页</a><a href="list-1.html">1</a><span class="current">2</span><a href="list-2.html">下一页</a><a href="list-2.html">末页</a><span class="all">页次：2 / 2</span></div>        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+	<p>Copyright © 2010-2012 版权所有 闽ICP备 123516665</p>
+</div>
+</body>
+</html>

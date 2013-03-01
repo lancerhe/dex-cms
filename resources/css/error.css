@@ -1,0 +1,29 @@
+body, div {
+    margin: 0;
+    padding: 0;
+}
+body { background: #67ace4 url("../images/error_bg.jpg") repeat-x;}
+#container {
+    width: 560px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+#container img { margin-bottom: 50px; border: none;}
+#container .error {
+    position: relative;
+    height: 200px;
+}
+#container .error img {
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
+#container .msg { margin-bottom: 65px;}
+#cloud {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 170px;
+    background: url("../images/error_cloud.png") repeat-x;
+}

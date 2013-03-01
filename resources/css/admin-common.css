@@ -1,0 +1,34 @@
+body {font-size: 12px;font-family: "Microsoft YaHei"; }
+label, input, button, select, textarea{ font-family: "Microsoft YaHei"; }
+.wrap {padding: 10px;}
+.pagination {margin:0;}
+.pt10{ padding-top:10px;}
+.pl10 {padding-left:10px;}
+.label, .badge {line-height:20px;}
+.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.form {margin-bottom: 0;}
+.form-horizontal .control-group {
+    margin-bottom: 10px;
+}
+.wrap label,
+.wrap input, 
+.wrap button, 
+.wrap select, 
+.wrap textarea {
+    font-size: 12px; 
+}
+.wrap legend {
+    font-size: 18px;
+}
+.wrap .navbar .brand {
+    font-size: 18px;
+}
+.wrap .well{background-color: white}
+#header {height:90px;}
+#logo {width:240px; position:absolute; left:0; top:0; height:83px; border-bottom: 1px solid #DDD;}
+#login{margin-left:240px; }
+#login-bar, #nav {margin-bottom:0; }
+#login-bar {margin-bottom:10px;}
+
+#left-nav {padding-left: 0; padding-right: 0; width: 180px; position: fixed;}
+#main-container { margin-left: 200px;}
